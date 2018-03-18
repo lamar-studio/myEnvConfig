@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+# 设置参考:http://blog.csdn.net/kelvin_yan/article/details/45193557
+# 配置windows终端输出格式
+# 双击时, 该脚本会把信息自动导入终端的注册表
+
+
+[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]
+
+"CodePage"=dword:0000fde9
+
+"FontFamily"=dword:00000036
+
+"FontWeight"=dword:00000190
+
+"FaceName"="Consolas"
+
+"ScreenBufferSize"=dword:002a0078
+
+"WindowSize"=dword:002b00d2
+
+"ScreenColors"=dword:0000000a
