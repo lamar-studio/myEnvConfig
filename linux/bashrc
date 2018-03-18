@@ -116,9 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# the build environment for FriendlyARM
-# this config served for the tiny4412
-export PATH=$PATH:/opt/FriendlyARM/toolschain/4.5.1/bin
 
 
 
