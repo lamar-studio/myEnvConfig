@@ -1,22 +1,23 @@
 Windows Registry Editor Version 5.00
 
+# === LaMar ===
 # 设置参考:http://blog.csdn.net/kelvin_yan/article/details/45193557
 # 配置windows终端输出格式
 # 双击时, 该脚本会把信息自动导入终端的注册表
 
 
 [HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]
-
+#编码格式
 "CodePage"=dword:0000fde9
-
+#字体族
 "FontFamily"=dword:00000036
-
+#字体粗细
 "FontWeight"=dword:00000190
-
+#默认字体
 "FaceName"="Consolas"
-
+#缓冲区大小
 "ScreenBufferSize"=dword:002a0078
-
+#窗口大小
 "WindowSize"=dword:002b00d2
-
+#字体颜色
 "ScreenColors"=dword:0000000a
