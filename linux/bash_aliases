@@ -23,15 +23,16 @@ alias ffind='find -type f -name'  # find the file
 
 # the alias for git
 alias gs='git status .'           # git status
-alias gb='git branch'             # git branch 
-
+alias gb='git branch'             # git branch
+alias gm='git commit'             # git commit
+alias gl="git log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset'"
 
 
 
 
 # tools
 alias now='date +"%Y-%m-%d %T"'
-
+alias delsvn='find . -type d -name ".svn" | xargs -I {} echo \"{}\" | xargs rm -rf'
 
 
 #######@@=============@@
