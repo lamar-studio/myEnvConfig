@@ -63,6 +63,7 @@ else
 fi
 unset color_prompt force_color_prompt
 
+PS1='\[\033[01;32m\]\u@\h:\[\033[01;32m\]\w\[\033[00m\] $(date +%k:%M)\nLaMar$ '
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
@@ -115,8 +116,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-
-
-
-
